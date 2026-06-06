@@ -1245,12 +1245,16 @@ h2 {
     padding-top: 30px;
     padding-bottom: 40px;
     gap: 24px;
+    justify-items: center;
   }
 
   h1 {
-    font-size: clamp(2.35rem, 13vw, 3.8rem);
-    line-height: 0.98;
-    max-width: 100%;
+    font-size: clamp(1.75rem, 9vw, 2.6rem);
+    line-height: 1.05;
+    max-width: 9.2ch;
+    margin-inline: auto;
+    text-wrap: balance;
+    text-align: center;
   }
 
   h2 {
@@ -1280,30 +1284,53 @@ h2 {
 
   .hero-text {
     margin-top: 20px;
-    max-width: 100%;
+    max-width: 32ch;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 440px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .hero-actions {
     margin-top: 24px;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .button {
-    width: 100%;
+    width: min(100%, 280px);
     min-height: 48px;
+    margin-inline: auto;
+    text-align: center;
   }
 
   .stats {
     margin-top: 28px;
+    width: 100%;
+    justify-items: center;
   }
 
   .stats div {
     padding: 16px;
+    width: min(100%, 280px);
+    text-align: center;
   }
 
   .hero-visual {
     min-height: auto;
     gap: 12px;
+    width: 100%;
+    max-width: 440px;
+    margin-inline: auto;
   }
 
   .hero-card {
@@ -1313,10 +1340,25 @@ h2 {
   .hero-card-main {
     min-height: 280px;
     padding: 20px;
+    align-items: center;
+    text-align: center;
   }
 
   .hero-card-main::before {
     inset: 12px;
+  }
+
+  .hero-card-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .hero-card-copy {
+    max-width: 24ch;
+    margin-inline: auto;
+    text-align: center;
   }
 
   .hero-card-secondary {
@@ -1325,6 +1367,9 @@ h2 {
     height: auto;
     min-height: 112px;
     padding: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .tone-1,
@@ -1336,11 +1381,11 @@ h2 {
   }
 
   .project-label {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
   }
 
   .project-small {
-    font-size: 0.72rem;
+    font-size: 0.7rem;
   }
 
   .intro-strip {
@@ -1488,6 +1533,7 @@ h2 {
 @media (max-width: 480px) {
   .topbar {
     padding-top: 14px;
+    justify-items: center;
   }
 
   .brand-text {
@@ -1510,7 +1556,8 @@ h2 {
   }
 
   h1 {
-    font-size: clamp(2.1rem, 12vw, 3.2rem);
+    font-size: clamp(1.65rem, 8.6vw, 2.4rem);
+    max-width: 8.7ch;
   }
 
   h2 {
@@ -1522,9 +1569,22 @@ h2 {
     padding: 18px;
   }
 
+  .hero-text {
+    max-width: 30ch;
+    margin-inline: auto;
+  }
+
   .hero-card-secondary {
     min-height: 100px;
     padding: 16px;
+  }
+
+  .stats div {
+    width: min(100%, 260px);
+  }
+
+  .button {
+    width: min(100%, 260px);
   }
 
   .stats {
