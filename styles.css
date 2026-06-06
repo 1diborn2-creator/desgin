@@ -761,11 +761,53 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.contact-copy {
+  display: grid;
+  gap: 10px;
+}
+
 .contact-text {
   margin: 0;
   color: var(--muted);
   line-height: 1.75;
   font-size: 1.02rem;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.contact-item {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 247, 0.68);
+}
+
+.contact-label {
+  color: var(--accent);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.contact-link {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  word-break: break-word;
+}
+
+.contact-link:hover,
+.contact-link:focus-visible {
+  color: var(--accent);
 }
 
 .quotes-grid {
@@ -1249,9 +1291,9 @@ h2 {
   }
 
   h1 {
-    font-size: clamp(1.75rem, 9vw, 2.6rem);
-    line-height: 1.05;
-    max-width: 9.2ch;
+    font-size: clamp(1.8rem, 8.6vw, 2.7rem);
+    line-height: 1.02;
+    max-width: 12.5ch;
     margin-inline: auto;
     text-wrap: balance;
     text-align: center;
@@ -1284,7 +1326,7 @@ h2 {
 
   .hero-text {
     margin-top: 20px;
-    max-width: 32ch;
+    max-width: 34ch;
     margin-inline: auto;
     text-align: center;
   }
@@ -1525,9 +1567,48 @@ h2 {
     text-align: left;
   }
 
-  .contact-panel .button {
-    width: 100%;
+  html[lang="ru"] .hero-copy {
+    max-width: 420px;
   }
+
+  html[lang="ru"] .hero {
+    gap: 20px;
+  }
+
+  html[lang="ru"] h1 {
+    max-width: 15ch;
+    font-size: clamp(1.64rem, 7.6vw, 2.2rem);
+    transform: translateX(0.18ch);
+  }
+
+  html[lang="ru"] .hero-text {
+    max-width: 31ch;
+  }
+
+  html[lang="ru"] .button {
+    width: min(100%, 250px);
+  }
+
+  html[lang="ru"] .stats div {
+    width: min(100%, 250px);
+  }
+
+  html[lang="ru"] .hero-card-copy {
+    max-width: 20ch;
+  }
+
+  html[lang="ru"] .hero-card-secondary {
+    min-height: 108px;
+  }
+
+  html[lang="ru"] .project-label {
+    font-size: 1.08rem;
+  }
+
+  html[lang="ru"] .project-small {
+    font-size: 0.66rem;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -1556,8 +1637,8 @@ h2 {
   }
 
   h1 {
-    font-size: clamp(1.65rem, 8.6vw, 2.4rem);
-    max-width: 8.7ch;
+    font-size: clamp(1.68rem, 8.2vw, 2.45rem);
+    max-width: 12ch;
   }
 
   h2 {
@@ -1570,7 +1651,7 @@ h2 {
   }
 
   .hero-text {
-    max-width: 30ch;
+    max-width: 32ch;
     margin-inline: auto;
   }
 
@@ -1653,4 +1734,39 @@ h2 {
     align-items: flex-start;
     gap: 6px;
   }
+
+  html[lang="ru"] .hero-copy {
+    max-width: 390px;
+  }
+
+  html[lang="ru"] .hero {
+    gap: 18px;
+  }
+
+  html[lang="ru"] h1 {
+    max-width: 14.2ch;
+    font-size: clamp(1.52rem, 7.2vw, 1.98rem);
+    transform: translateX(0.15ch);
+  }
+
+  html[lang="ru"] .hero-text {
+    max-width: 28ch;
+  }
+
+  html[lang="ru"] .button {
+    width: min(100%, 240px);
+  }
+
+  html[lang="ru"] .stats div {
+    width: min(100%, 240px);
+  }
+
+  html[lang="ru"] .project-label {
+    font-size: 1rem;
+  }
+
+  html[lang="ru"] .hero-card-copy {
+    max-width: 18ch;
+  }
+
 }

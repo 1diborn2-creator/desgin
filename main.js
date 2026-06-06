@@ -452,7 +452,7 @@ const i18n = {
     aboutEyebrow: "Sobre nosotros",
     aboutTitle: "We create interiors that feel personal and timeless",
     aboutText1:
-      "At OL Interiors, we create thoughtful interiors that reflect the personality, lifestyle, and aspirations of the people who live in them.",
+      "At olinteriors, we create thoughtful interiors that reflect the personality, lifestyle, and aspirations of the people who live in them.",
     aboutText2:
       "We believe that great design goes beyond aesthetics. Every project begins with understanding our clients - how they live, what inspires them, and what they need from their space.",
     aboutText3:
@@ -475,7 +475,7 @@ const i18n = {
     experiencesEyebrow: "Experiencias de clientes",
     experiencesTitle: "What clients say",
     testimonial1:
-      '"Working with OL Interiors was an exceptional experience. Every detail was carefully considered, and the final result exceeded our expectations."',
+      '"Working with olinteriors was an exceptional experience. Every detail was carefully considered, and the final result exceeded our expectations."',
     testimonial2:
       '"Olga understood exactly how we wanted our home to feel. The design is beautiful, functional, and perfectly suited to our lifestyle."',
     testimonial3:
@@ -492,8 +492,8 @@ const i18n = {
     statProjectsLabel: "Projects",
     statStyleLabel: "Style",
     statStyleValue: "Minimalism + warm luxury",
-    statLanguageLabel: "Format",
-    statLanguageValue: "One page + case studies",
+    statLocationLabel: "Location",
+    statLocationValue: "Barcelona",
     spotlightEyebrow: "Last project",
     spotlightTitle: "Featured project",
     spotlightCta: "See full project",
@@ -518,10 +518,12 @@ const i18n = {
     approachThreeTitle: "Three languages",
     approachThreeText:
       "The EN / RU / ES switch updates all key copy and persists after reopening the site.",
-    contactEyebrow: "Next step",
-    contactTitle: "Ready to build the final version",
-    contactText:
-      "If you want, next I can turn this draft into a working site with real imagery, motion, and a structure tailored to the Behance projects.",
+    contactEyebrow: "Contact",
+    contactTitle: "olinteriors",
+    contactText: "For projects, consultations, and new work.",
+    contactInstagramLabel: "Instagram",
+    contactWhatsAppLabel: "WhatsApp",
+    contactEmailLabel: "Email",
   },
   ru: {
     navAbout: "О нас",
@@ -532,7 +534,7 @@ const i18n = {
     aboutEyebrow: "О нас",
     aboutTitle: "Мы создаём интерьеры, в которых хочется жить",
     aboutText1:
-      "В OL Interiors мы создаём вдумчивые интерьеры, которые отражают личность, образ жизни и стремления людей, которые в них живут.",
+      "В olinteriors мы создаём вдумчивые интерьеры, которые отражают личность, образ жизни и стремления людей, которые в них живут.",
     aboutText2:
       "Мы считаем, что хороший дизайн не ограничивается эстетикой. Каждый проект начинается с понимания клиента - как он живет, что его вдохновляет и что ему нужно от пространства.",
     aboutText3:
@@ -555,7 +557,7 @@ const i18n = {
     experiencesEyebrow: "Отзывы клиентов",
     experiencesTitle: "Что говорят клиенты",
     testimonial1:
-      '"Работа с OL Interiors была исключительным опытом. Каждая деталь была тщательно продумана, а итог превзошел наши ожидания."',
+      '"Работа с olinteriors была исключительным опытом. Каждая деталь была тщательно продумана, а итог превзошел наши ожидания."',
     testimonial2:
       '"Ольга точно поняла, каким мы хотели видеть наш дом. Дизайн получился красивым, функциональным и идеально соответствующим нашему образу жизни."',
     testimonial3:
@@ -572,8 +574,8 @@ const i18n = {
     statProjectsLabel: "Проекты",
     statStyleLabel: "Стиль",
     statStyleValue: "Минимализм + тёплая роскошь",
-    statLanguageLabel: "Формат",
-    statLanguageValue: "Одна страница + подробные кейсы",
+    statLocationLabel: "Локация",
+    statLocationValue: "Barcelona",
     spotlightEyebrow: "Последний проект",
     spotlightTitle: "Главный проект",
     spotlightCta: "Смотреть проект",
@@ -598,10 +600,12 @@ const i18n = {
     approachThreeTitle: "Два языка",
     approachThreeText:
       "Переключение EN / RU / ES меняет все основные тексты и сохраняется при повторном открытии.",
-    contactEyebrow: "Следующий шаг",
-    contactTitle: "Готовы собрать финальную версию сайта",
-    contactText:
-      "Если хочешь, следующим сообщением я уже переведу этот черновик в рабочий сайт с реальными изображениями, анимацией и точной структурой под Behance-работы.",
+    contactEyebrow: "Контакты",
+    contactTitle: "olinteriors",
+    contactText: "Связь для проектов, консультаций и новых задач.",
+    contactInstagramLabel: "Instagram",
+    contactWhatsAppLabel: "WhatsApp",
+    contactEmailLabel: "Почта",
   },
   es: {
     navAbout: "Nosotros",
@@ -612,7 +616,7 @@ const i18n = {
     aboutEyebrow: "About Us",
     aboutTitle: "Creamos interiores que se sienten personales y atemporales",
     aboutText1:
-      "En OL Interiors creamos interiores reflexivos que reflejan la personalidad, el estilo de vida y las aspiraciones de las personas que los habitan.",
+      "En olinteriors creamos interiores reflexivos que reflejan la personalidad, el estilo de vida y las aspiraciones de las personas que los habitan.",
     aboutText2:
       "Creemos que un gran diseño va más allá de la estética. Cada proyecto comienza entendiendo a nuestros clientes - cómo viven, qué les inspira y qué necesitan de su espacio.",
     aboutText3:
@@ -635,7 +639,7 @@ const i18n = {
     experiencesEyebrow: "Client Experiences",
     experiencesTitle: "Lo que dicen los clientes",
     testimonial1:
-      '"Trabajar con OL Interiors fue una experiencia excepcional. Cada detalle fue cuidadosamente considerado y el resultado final superó nuestras expectativas."',
+      '"Trabajar con olinteriors fue una experiencia excepcional. Cada detalle fue cuidadosamente considerado y el resultado final superó nuestras expectativas."',
     testimonial2:
       '"Olga entendió exactamente cómo queríamos que se sintiera nuestro hogar. El diseño es hermoso, funcional y perfectamente adaptado a nuestro estilo de vida."',
     testimonial3:
@@ -652,8 +656,8 @@ const i18n = {
     statProjectsLabel: "Proyectos",
     statStyleLabel: "Estilo",
     statStyleValue: "Minimalismo + lujo cálido",
-    statLanguageLabel: "Formato",
-    statLanguageValue: "Una página + casos de estudio",
+    statLocationLabel: "Ubicación",
+    statLocationValue: "Barcelona",
     spotlightEyebrow: "Último proyecto",
     spotlightTitle: "Proyecto destacado",
     spotlightCta: "Ver proyecto",
@@ -678,10 +682,12 @@ const i18n = {
     approachThreeTitle: "Dos idiomas",
     approachThreeText:
       "El cambio EN / RU / ES actualiza todos los textos principales y se conserva al volver a abrir el sitio.",
-    contactEyebrow: "Siguiente paso",
-    contactTitle: "Listos para construir la versión final",
-    contactText:
-      "Si quieres, en el siguiente mensaje convierto este borrador en una web funcional con imágenes reales, animaciones y una estructura exacta para los proyectos de Behance.",
+    contactEyebrow: "Contacto",
+    contactTitle: "olinteriors",
+    contactText: "Para proyectos, consultas y nuevos trabajos.",
+    contactInstagramLabel: "Instagram",
+    contactWhatsAppLabel: "WhatsApp",
+    contactEmailLabel: "Correo",
   },
 };
 
