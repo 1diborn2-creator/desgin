@@ -1,114 +1,58 @@
 const projects = [
   {
-    key: "esplugues",
-    title: 'Modern House "ESPLUGUES"',
+    key: "casaDelMar",
+    title: "CASA DEL MAR",
     category: {
-      en: "Architecture / House",
-      ru: "Архитектура / Дом",
-      es: "Arquitectura / Casa",
+      en: "Villa / Reconstruction",
+      ru: "Вилла / Реконструкция",
+      es: "Villa / Reconstrucción",
     },
     location: {
-      en: "Spain",
-      ru: "Испания",
-      es: "España",
+      en: "Costa Dorada, Spain",
+      ru: "Коста-Дорада, Испания",
+      es: "Costa Dorada, España",
     },
-    year: "2025",
+    year: "2026",
     chips: {
-      en: ["Modern", "Bright", "Architectural"],
-      ru: ["Современно", "Светло", "Архитектурно"],
-      es: ["Moderno", "Luminoso", "Arquitectónico"],
+      en: ["Seafront", "Warm minimalism", "Architecture"],
+      ru: ["У моря", "Тёплый минимализм", "Архитектура"],
+      es: ["Frente al mar", "Minimalismo cálido", "Arquitectura"],
     },
-    toneStart: "#d9c5b4",
-    toneEnd: "#f4ebe3",
+    toneStart: "#a89a8b",
+    toneEnd: "#eee8df",
     wide: true,
     copy: {
-      en: "Clean geometry, soft light, and quiet materiality for a contemporary home.",
-      ru: "Чистая геометрия, мягкий свет и спокойная материальность для современного дома.",
-      es: "Geometría limpia, luz suave y materialidad serena para una casa contemporánea.",
+      en: "A complete reconstruction of a two-story seafront villa for contemporary family life.",
+      ru: "Полная реконструкция двухэтажной виллы у моря для современной семейной жизни.",
+      es: "Una reconstrucción integral de una villa de dos plantas frente al mar para una familia contemporánea.",
     },
   },
   {
-    key: "bathroom",
-    title: "Modern Bathroom",
+    key: "japandi",
+    title: "WARM JAPANDI",
     category: {
-      en: "Bathroom / Interior",
-      ru: "Ванная / Интерьер",
-      es: "Baño / Interior",
+      en: "Japandi / Interior",
+      ru: "Japandi / Интерьер",
+      es: "Japandi / Interior",
     },
     location: {
-      en: "Saudi Arabia",
-      ru: "Саудовская Аравия",
-      es: "Arabia Saudita",
-    },
-    year: "2024",
-    chips: {
-      en: ["Calm", "Minimal", "Warm"],
-      ru: ["Спокойно", "Минималистично", "Тепло"],
-      es: ["Sereno", "Minimal", "Cálido"],
-    },
-    toneStart: "#c5b0a0",
-    toneEnd: "#efe4da",
-    wide: false,
-    copy: {
-      en: "A restrained bathroom interior focused on light, surface, and balance.",
-      ru: "Сдержанный интерьер ванной комнаты с акцентом на свет, поверхность и баланс.",
-      es: "Un baño contenido con foco en la luz, la superficie y el equilibrio.",
-    },
-  },
-  {
-    key: "nude",
-    title: "Nude Elegance Bedroom",
-    category: {
-      en: "Bedroom / Suite",
-      ru: "Спальня / Сьют",
-      es: "Dormitorio / Suite",
-    },
-    location: {
-      en: "Warm residential",
-      ru: "Тёплая резиденция",
-      es: "Residencia cálida",
+      en: "Minimal residential",
+      ru: "Минималистичная резиденция",
+      es: "Residencia minimalista",
     },
     year: "2025",
     chips: {
-      en: ["Soft", "Tactile", "Quiet"],
-      ru: ["Мягко", "Фактурно", "Тихо"],
-      es: ["Suave", "Táctil", "Silencioso"],
+      en: ["Natural", "Warm", "Minimal"],
+      ru: ["Натурально", "Тепло", "Минимально"],
+      es: ["Natural", "Cálido", "Minimal"],
     },
-    toneStart: "#d9bea1",
-    toneEnd: "#f7eee4",
+    toneStart: "#d5c4af",
+    toneEnd: "#f4ece2",
     wide: false,
     copy: {
-      en: "A bedroom with a delicate palette, soft textiles, and a sense of privacy.",
-      ru: "Спальня с деликатной палитрой, мягким текстилем и ощущением приватности.",
-      es: "Un dormitorio con paleta delicada, textiles suaves y sensación de intimidad.",
-    },
-  },
-  {
-    key: "history",
-    title: "Elegance of History",
-    category: {
-      en: "Apartment / Heritage",
-      ru: "Апартаменты / Наследие",
-      es: "Apartamento / Patrimonio",
-    },
-    location: {
-      en: "La Casa Domènec Coll",
-      ru: "La Casa Domènec Coll",
-      es: "La Casa Domènec Coll",
-    },
-    year: "2025",
-    chips: {
-      en: ["Heritage", "Elegant", "Refined"],
-      ru: ["Наследие", "Элегантно", "Выверенно"],
-      es: ["Herencia", "Elegante", "Refinado"],
-    },
-    toneStart: "#c8b7a6",
-    toneEnd: "#efe6dc",
-    wide: true,
-    copy: {
-      en: "A contemporary reading of a historic space, shaped by proportion and context.",
-      ru: "Современная подача исторического пространства, где важны пропорции и уважение к контексту.",
-      es: "Una lectura contemporánea de un espacio histórico, con respeto por el contexto y las proporciones.",
+      en: "A quiet Japandi mood with natural materials and a very soft atmosphere.",
+      ru: "Тихий Japandi-настрой с естественными материалами и очень мягкой атмосферой.",
+      es: "Un enfoque Japandi sereno, con materiales naturales y una atmósfera muy suave.",
     },
   },
   {
@@ -140,31 +84,115 @@ const projects = [
     },
   },
   {
-    key: "japandi",
-    title: "WARM JAPANDI",
+    key: "history",
+    title: "Elegance of History",
     category: {
-      en: "Japandi / Interior",
-      ru: "Japandi / Интерьер",
-      es: "Japandi / Interior",
+      en: "Apartment / Heritage",
+      ru: "Апартаменты / Наследие",
+      es: "Apartamento / Patrimonio",
     },
     location: {
-      en: "Minimal residential",
-      ru: "Минималистичная резиденция",
-      es: "Residencia minimalista",
+      en: "La Casa Domènec Coll",
+      ru: "La Casa Domènec Coll",
+      es: "La Casa Domènec Coll",
     },
     year: "2025",
     chips: {
-      en: ["Natural", "Warm", "Minimal"],
-      ru: ["Натурально", "Тепло", "Минимально"],
-      es: ["Natural", "Cálido", "Minimal"],
+      en: ["Heritage", "Elegant", "Refined"],
+      ru: ["Наследие", "Элегантно", "Выверенно"],
+      es: ["Herencia", "Elegante", "Refinado"],
     },
-    toneStart: "#d5c4af",
-    toneEnd: "#f4ece2",
+    toneStart: "#c8b7a6",
+    toneEnd: "#efe6dc",
+    wide: true,
+    copy: {
+      en: "A contemporary reading of a historic space, shaped by proportion and context.",
+      ru: "Современная подача исторического пространства, где важны пропорции и уважение к контексту.",
+      es: "Una lectura contemporánea de un espacio histórico, con respeto por el contexto y las proporciones.",
+    },
+  },
+  {
+    key: "nude",
+    title: "Nude Elegance Bedroom",
+    category: {
+      en: "Bedroom / Suite",
+      ru: "Спальня / Сьют",
+      es: "Dormitorio / Suite",
+    },
+    location: {
+      en: "Warm residential",
+      ru: "Тёплая резиденция",
+      es: "Residencia cálida",
+    },
+    year: "2025",
+    chips: {
+      en: ["Soft", "Tactile", "Quiet"],
+      ru: ["Мягко", "Фактурно", "Тихо"],
+      es: ["Suave", "Táctil", "Silencioso"],
+    },
+    toneStart: "#d9bea1",
+    toneEnd: "#f7eee4",
     wide: false,
     copy: {
-      en: "A quiet Japandi mood with natural materials and a very soft atmosphere.",
-      ru: "Тихий Japandi-настрой с естественными материалами и очень мягкой атмосферой.",
-      es: "Un enfoque Japandi sereno, con materiales naturales y una atmósfera muy suave.",
+      en: "A bedroom with a delicate palette, soft textiles, and a sense of privacy.",
+      ru: "Спальня с деликатной палитрой, мягким текстилем и ощущением приватности.",
+      es: "Un dormitorio con paleta delicada, textiles suaves y sensación de intimidad.",
+    },
+  },
+  {
+    key: "bathroom",
+    title: "Modern Bathroom",
+    category: {
+      en: "Bathroom / Interior",
+      ru: "Ванная / Интерьер",
+      es: "Baño / Interior",
+    },
+    location: {
+      en: "Saudi Arabia",
+      ru: "Саудовская Аравия",
+      es: "Arabia Saudita",
+    },
+    year: "2024",
+    chips: {
+      en: ["Calm", "Minimal", "Warm"],
+      ru: ["Спокойно", "Минималистично", "Тепло"],
+      es: ["Sereno", "Minimal", "Cálido"],
+    },
+    toneStart: "#c5b0a0",
+    toneEnd: "#efe4da",
+    wide: false,
+    copy: {
+      en: "A restrained bathroom interior focused on light, surface, and balance.",
+      ru: "Сдержанный интерьер ванной комнаты с акцентом на свет, поверхность и баланс.",
+      es: "Un baño contenido con foco en la luz, la superficie y el equilibrio.",
+    },
+  },
+  {
+    key: "esplugues",
+    title: 'Modern House "ESPLUGUES"',
+    category: {
+      en: "Architecture / House",
+      ru: "Архитектура / Дом",
+      es: "Arquitectura / Casa",
+    },
+    location: {
+      en: "Spain",
+      ru: "Испания",
+      es: "España",
+    },
+    year: "2025",
+    chips: {
+      en: ["Modern", "Bright", "Architectural"],
+      ru: ["Современно", "Светло", "Архитектурно"],
+      es: ["Moderno", "Luminoso", "Arquitectónico"],
+    },
+    toneStart: "#d9c5b4",
+    toneEnd: "#f4ebe3",
+    wide: true,
+    copy: {
+      en: "Clean geometry, soft light, and quiet materiality for a contemporary home.",
+      ru: "Чистая геометрия, мягкий свет и спокойная материальность для современного дома.",
+      es: "Geometría limpia, luz suave y materialidad serena para una casa contemporánea.",
     },
   },
 ];
@@ -365,7 +393,12 @@ function sanitizeBehanceText(html) {
   if (!html) return "";
   const template = document.createElement("template");
   template.innerHTML = html;
-  template.content.querySelectorAll("[style]").forEach((node) => node.removeAttribute("style"));
+  template.content.querySelectorAll("[style]").forEach((node) => {
+    if (/text-align\s*:\s*center/i.test(node.getAttribute("style") || "")) {
+      node.classList.add("is-centered");
+    }
+    node.removeAttribute("style");
+  });
   template.content.querySelectorAll("[class]").forEach((node) => {
     const classes = node.className
       .split(/\s+/)
@@ -486,9 +519,9 @@ const i18n = {
     heroTitle:
       "A minimalist portfolio of interior stories where light, texture, and silence work as one composition.",
     heroText:
-      "The site is built around six selected Behance projects. I arranged them in a calm editorial presentation so the visuals read soft, clean, and confident.",
+      "We design spaces that reflect your individuality and remain relevant for many years thanks to attention to detail and thoughtful decisions.",
     heroCtaPrimary: "View projects",
-    heroCtaSecondary: "Discuss the site",
+    heroCtaSecondary: "Contact",
     statProjectsLabel: "Projects",
     statStyleLabel: "Style",
     statStyleValue: "Minimalism + warm luxury",
@@ -508,7 +541,7 @@ const i18n = {
     worksEyebrow: "Behance selection",
     worksTitle: "Selected projects",
     approachEyebrow: "Visual direction",
-    approachTitle: "How the site reads",
+    approachTitle: "Working styles",
     approachOneTitle: "Calm rhythm",
     approachOneText:
       "Lots of breathing room, generous spacing, card rhythm, and a very soft visual hierarchy.",
@@ -542,7 +575,7 @@ const i18n = {
     aboutText4:
       "Работая из Испании с клиентами из разных стран и культур, мы подходим к каждому проекту персонально и создаём интерьеры, которые одновременно элегантны, практичны и глубоко связаны с теми, кто в них живет.",
     approachEyebrow: "Наш подход",
-    approachTitle: "Каждый успешный интерьер начинается со слушания",
+    approachTitle: "Стили работы",
     approachOneTitle: "Сначала слушаем",
     approachOneText: "Every successful interior starts with listening.",
     approachTwoTitle: "Решения с целью",
@@ -568,9 +601,9 @@ const i18n = {
     heroTitle:
       "Минималистичный портфель интерьерных историй, где свет, фактура и тишина работают как единая композиция.",
     heroText:
-      "Основа сайта — шесть отобранных проектов с Behance. Я собрал их в спокойную редакционную подачу, чтобы визуалы звучали мягко, чисто и уверенно.",
+      "Мы проектируем пространства, которые отражают вашу индивидуальность и остаются актуальными на протяжении многих лет благодаря вниманию к деталям и продуманным решениям.",
     heroCtaPrimary: "Смотреть проекты",
-    heroCtaSecondary: "Обсудить сайт",
+    heroCtaSecondary: "Связаться",
     statProjectsLabel: "Проекты",
     statStyleLabel: "Стиль",
     statStyleValue: "Минимализм + тёплая роскошь",
@@ -590,7 +623,7 @@ const i18n = {
     worksEyebrow: "Выбор Behance",
     worksTitle: "Выбранные проекты",
     approachEyebrow: "Визуальное направление",
-    approachTitle: "Как читается этот сайт",
+    approachTitle: "Стили работы",
     approachOneTitle: "Спокойный ритм",
     approachOneText:
       "Много воздуха, крупные поля, ритм карточек и очень мягкая визуальная иерархия.",
@@ -624,7 +657,7 @@ const i18n = {
     aboutText4:
       "Con sede en España y trabajando con clientes de distintos orígenes y culturas, aportamos un enfoque personalizado a cada proyecto, creando interiores elegantes, prácticos y profundamente conectados con quienes los habitan.",
     approachEyebrow: "Our Approach",
-    approachTitle: "Todo interior exitoso comienza escuchando",
+    approachTitle: "Estilos de trabajo",
     approachOneTitle: "Empezamos escuchando",
     approachOneText: "Every successful interior starts with listening.",
     approachTwoTitle: "Decisiones con propósito",
@@ -650,9 +683,9 @@ const i18n = {
     heroTitle:
       "Un portfolio minimalista de historias interiores, donde luz, textura y silencio funcionan como una sola composición.",
     heroText:
-      "La base del sitio son seis proyectos seleccionados de Behance. Los organicé en una presentación editorial tranquila para que los visuales se lean suaves, limpios y seguros.",
+      "Disenamos espacios que reflejan tu individualidad y siguen siendo actuales durante muchos anos gracias a la atencion al detalle y a decisiones bien pensadas.",
     heroCtaPrimary: "Ver proyectos",
-    heroCtaSecondary: "Hablar del sitio",
+    heroCtaSecondary: "Contactar",
     statProjectsLabel: "Proyectos",
     statStyleLabel: "Estilo",
     statStyleValue: "Minimalismo + lujo cálido",
@@ -672,7 +705,7 @@ const i18n = {
     worksEyebrow: "Selección de Behance",
     worksTitle: "Proyectos elegidos",
     approachEyebrow: "Dirección visual",
-    approachTitle: "Cómo se percibe este sitio",
+    approachTitle: "Estilos de trabajo",
     approachOneTitle: "Ritmo tranquilo",
     approachOneText:
       "Mucho aire, márgenes amplios, ritmo de tarjetas y una jerarquía visual muy suave.",
@@ -704,6 +737,11 @@ const closeProjectButtons = Array.from(document.querySelectorAll("[data-close-pr
 const closeImageViewerButtons = Array.from(document.querySelectorAll("[data-close-image-viewer]"));
 const prevImageButtons = Array.from(document.querySelectorAll("[data-image-prev]"));
 const nextImageButtons = Array.from(document.querySelectorAll("[data-image-next]"));
+const backToTopButton = document.querySelector(".back-to-top");
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const lacksIntersectionObserver = !("IntersectionObserver" in window);
+const revealImmediately = prefersReducedMotion || lacksIntersectionObserver;
+let revealObserver = null;
 let activeProjectKey = null;
 let activeGalleryIndex = 0;
 
@@ -728,7 +766,7 @@ function renderProjects(locale) {
     .map((project, index) => {
         const previewSrc = getProjectGallery(projectDetails[project.key])?.[0];
         return `
-        <button type="button" class="project-card ${index === 0 ? "is-featured" : ""}" data-project-key="${project.key}" style="--tone-start:${project.toneStart}; --tone-end:${project.toneEnd};">
+        <button type="button" class="project-card reveal ${revealImmediately ? "is-visible" : ""} ${index === 0 ? "is-featured" : ""}" data-project-key="${project.key}" style="--tone-start:${project.toneStart}; --tone-end:${project.toneEnd}; --reveal-delay:${index * 90}ms;">
           <div class="project-media">
             ${previewSrc ? `<img class="project-media__image" src="${previewSrc}" alt="${project.title} preview" loading="lazy" />` : ""}
             <div class="project-media__overlay"></div>
@@ -751,6 +789,7 @@ function renderProjects(locale) {
     .join("");
 
   grid.innerHTML = markup;
+  observeRevealElements();
 }
 
 function renderSpotlight(locale) {
@@ -863,6 +902,23 @@ function stepImage(delta) {
   renderImageViewer(document.documentElement.lang);
 }
 
+function updateBackToTopVisibility() {
+  if (!backToTopButton) return;
+  const shouldShow = window.scrollY > 420;
+  backToTopButton.classList.toggle("is-visible", shouldShow);
+  backToTopButton.setAttribute("aria-hidden", String(!shouldShow));
+}
+
+function observeRevealElements() {
+  if (!revealObserver) {
+    return;
+  }
+
+  document.querySelectorAll(".reveal:not(.is-visible)").forEach((element) => {
+    revealObserver.observe(element);
+  });
+}
+
 function setLanguage(locale) {
   const dict = i18n[locale] ?? i18n.en;
 
@@ -899,6 +955,35 @@ const savedLanguage = readStoredLanguage();
 const initialLanguage = ["en", "ru", "es"].includes(savedLanguage) ? savedLanguage : "ru";
 
 setLanguage(initialLanguage);
+
+const revealTargets = document.querySelectorAll(".reveal");
+
+if (prefersReducedMotion) {
+  revealTargets.forEach((element) => {
+    element.classList.add("is-visible");
+  });
+} else if (!lacksIntersectionObserver) {
+  revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
+      });
+    },
+    {
+      threshold: 0.18,
+      rootMargin: "0px 0px -8% 0px",
+    },
+  );
+
+  revealTargets.forEach((element) => revealObserver.observe(element));
+  observeRevealElements();
+} else {
+  revealTargets.forEach((element) => {
+    element.classList.add("is-visible");
+  });
+}
 
 grid.addEventListener("click", (event) => {
   const card = event.target.closest("[data-project-key]");
@@ -941,6 +1026,18 @@ prevImageButtons.forEach((button) => {
 nextImageButtons.forEach((button) => {
   button.addEventListener("click", () => stepImage(1));
 });
+
+if (backToTopButton) {
+  backToTopButton.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+}
+
+window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+updateBackToTopVisibility();
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft" && imageViewer.getAttribute("aria-hidden") === "false") {
